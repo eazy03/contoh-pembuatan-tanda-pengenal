@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif; /* Mirip dengan KTP asli */
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+/* Kartu KTP */
+.ktp {
+  position: relative;
+  width: 700px;
+  height: 400px;
+  background: url("bg ktp.png") no-repeat center;
+  background-size:contain;
+  border-radius: 10px;
+  padding: 40px;
+  color: #000;
+  font-size: 16px;
+}
+
+/* NIK */
+.nik {
+  position: absolute;
+  top: 99px;
+  left: 170px;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+/* Provinsi */
+.provinsi {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+
+/* Data fields sesuai posisi KTP */
+.field {
+  position: absolute;
+  font-size: 16px;
+}
+
+
+/* Nama */
+.nama { top: 130px; left: 240px; font-weight: bold; }
+/* Tempat/Tgl Lahir */
+.ttl { top: 158px; left: 240px; font-weight: bold; }
+/* Jenis Kelamin */
+.jk { top: 182px; left: 240px; font-weight: bold; }
+/* Golongan Darah */
+.gol { top: 184px; left: 520px; font-weight: bold; }
+/* Alamat */
+.alamat { top: 203px; left: 240px; font-weight: bold; }
+/* RT/RW */
+.rtrw { top: 231px; left: 240px; font-weight: bold; }
+/* Kelurahan/Desa */
+.desa { top: 253px; left: 240px; font-weight: bold; }
+/* Kecamatan */
+.kec { top: 277px; left: 240px; font-weight: bold; }
+/* Agama */
+.agama { top: 302px; left: 240px; font-weight: bold; }
+/* Status Perkawinan */
+.status { top: 324px; left: 240px; font-weight: bold; }
+/* Pekerjaan */
+.pekerjaan { top: 347px; left: 240px; font-weight: bold; }
+/* Kewarganegaraan */
+.wn { top: 370px; left: 240px; font-weight: bold; }
+/* Berlaku Hingga */
+.berlaku { top: 395px; left: 240px; font-weight: bold; }
+/* Tanggal Pembuatan */
+.tgl { top: 330px; left: 580px; font-weight: bold; text-align: center;}
+/* Tanda Tangan */
+.ttd { top: 390px; left: 620px; font-weight: bold; }
+
+/* Foto kotak merah */
+.photo {
+  position: absolute;
+  top: 100px;
+  right: 39px;
+  width: 180px;
+  height: 220px;
+  border: 2px solid #000;
+  background: #ddd url("foto.jpg") no-repeat center;
+  background-size: cover;
+}
